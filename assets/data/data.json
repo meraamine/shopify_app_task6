@@ -1,0 +1,52 @@
+{
+  "products" : [
+    {
+        "id" : "1",
+        "name" : "bag",
+        "categoryId" : "1",
+        "description" : "good material",
+        "prict" : 20,
+        "quantity" : 12
+    },
+    {
+        "id" : "2",
+        "name" : "shoes",
+        "categoryId" : "1",
+        "description" : "good material",
+        "prict" : 33,
+        "quantity" : 5
+    }
+    ],  
+  "categories" : [
+    {
+        "id" : "1",
+        "title" : "new clothes",
+        "description" : "clother Category"
+    },
+    {
+        "id" : "2",
+        "title" : "Assets",
+        "description" : "assets Category"
+    }
+    ],
+    "ads": [
+        {
+            "id":"1",
+          "image": "https://thumbs.dreamstime.com/z/holidays-background-illuminated-christmas-tree-gifts-d-decoration-dark-wooden-free-space-text-celebration-106172870.jpg?w=2048",
+          "title": "Ad 1",
+          "description": "This is the first ad"
+        },
+        {
+            "id":"2",
+          "image": "https://media.gettyimages.com/id/487756624/photo/christmas-glowing-fireplace-hearth-tree-red-stockings-gifts-and-decorations.jpg?s=2048x2048&w=gi&k=20&c=E5t3Ks3VmFgYp6aQfTHpiVRuyBKU4z-Qlq5tf_c8uIY=",
+          "title": "Ad 2",
+          "description": "This is the second ad"
+        },
+        {
+            "id":"3",
+          "image": "https://media.gettyimages.com/id/165928679/vector/christmas-tree.jpg?s=2048x2048&w=gi&k=20&c=zaqhSn8jbkrC-E9B2IJCnS3KHeqf_J12jNgjcu3c6Q4=",
+          "title": "Ad 3",
+          "description": "This is the third ad"
+        }
+      ]
+}

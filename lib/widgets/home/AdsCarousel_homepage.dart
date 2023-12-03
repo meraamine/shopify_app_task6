@@ -24,7 +24,7 @@ class AdsCarousel extends StatelessWidget {
               return Container(
                 child: Column(
                   children: [
-                    Image.network(ads[index]['image'] ?? ''),
+                    Image.network(ads[index]['image'] ?? '', height: 200),
                     Text(ads[index]['title'] ?? ''),
                     Text(ads[index]['description'] ?? ''),
                   ],

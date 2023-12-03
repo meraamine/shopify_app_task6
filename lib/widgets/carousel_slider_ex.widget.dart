@@ -45,7 +45,7 @@ class _CarouselSliderExState extends State<CarouselSliderEx> {
               builder: (BuildContext context) {
                 return Container(
                     width: MediaQuery.of(context).size.width,
-                    margin: EdgeInsets.symmetric(horizontal: 5.0),
+                    margin: EdgeInsets.symmetric(horizontal: 20.0),
                     decoration: BoxDecoration(color: Colors.amber),
                     child: Text(
                       'text $i',
@@ -59,8 +59,8 @@ class _CarouselSliderExState extends State<CarouselSliderEx> {
           dotsCount: 5,
           position: currentPosition,
           decorator: DotsDecorator(
-            size: const Size.square(9.0),
-            activeSize: const Size(18.0, 9.0),
+            size: const Size.square(10.0),
+            activeSize: const Size(20.0, 10.0),
             activeShape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(5.0)),
           ),

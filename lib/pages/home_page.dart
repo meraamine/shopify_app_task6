@@ -37,9 +37,9 @@ class _HomePageState extends State<HomePage> {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           HeadlineWidget(title: 'Categories'),
-          SizedBox(height: 5),
+          SizedBox(height: 10),
           CategoriesRowHome(),
-          SizedBox(height: 5),
+          SizedBox(height: 10),
           AdsCarousel(),
           // CarouselSliderEx(
           //   items: [
